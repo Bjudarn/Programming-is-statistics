@@ -1,0 +1,24 @@
+---
+title: "Assignment 3"
+author: "Daniel Olsson"
+date: "07/10/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The focus of this assignement is to expand our knowledge about data cleaning and data analysis. The report will firstly go through the necessary steps to clean and prepare the data, secondly analyze it to see what knowledge we might gather from the data.
+
+# Data cleaning
+
+First of all, the data has to be loaded
+
+setwd("C:/Users/Daniel Olsson/OneDrive/Skrivbord/Assignment 3")
+
+```{r}
+surgery1 <- read.table("C:/Users/Daniel Olsson/OneDrive/Skrivbord/Assigment 3/surgery1.txt", header = T, sep = ";")
+surgery2 <- read.table("C:/Users/Daniel Olsson/OneDrive/Skrivbord/Assigment 3/surgery2.txt", header = T, sep = ",")
+```
+
